@@ -1,0 +1,35 @@
+img{
+  height: 130px;
+  padding:5px;
+  border-radius: 20px;
+  
+}
+h1{
+  margin-left: 10px;
+  color:white;
+  display: none;
+
+}
+h4{
+  margin-left: 80px;
+  color: white;
+  display: none;
+}
+#kbd
+{
+  border: 3px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 5px black;
+  
+}
+#kbd:hover
+{
+  background-color: black;
+  color:yellow;
+  h1,h4 
+  {
+    color: yellow;
+    display: block;
+  }
+}
+
