@@ -1,0 +1,13 @@
+#movie
+{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 30px 5px black;
+  
+}
+p
+{
+    margin-left: 5px;
+}

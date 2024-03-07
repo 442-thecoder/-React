@@ -1,0 +1,50 @@
+img
+{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+#movies
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    
+    
+}
+h2{
+  align-items: center;
+  margin-left: 465px;
+}
+h1{
+  align-items: center;
+  margin-left: 430px;
+  background-color: red;
+  color: white;
+  background-clip: text;
+}
+#h1
+{
+  
+    align-items: center;
+    margin-left:435px;
+    height: 300px;
+    width: 400px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 3000px 5px black;
+    background-color: black;
+  
+}
+hr
+{
+  border: 10px solid;
+}
+#mainpic
+{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 400px;
+}
+
+
