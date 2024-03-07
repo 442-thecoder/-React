@@ -1,0 +1,102 @@
+h1
+{
+  color: white;
+}
+#todo
+{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+body
+{
+  background-color:#242424 ;
+}
+#taskinput
+{
+    height: 60px;
+    width: 500px;
+    background-color: #242424;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+#taskbtn
+{
+  height: 60px;
+  background-color: #242424;
+  color: white;
+  font-size: 30px;
+  
+}
+
+#listli
+{
+  color: white;
+  font-size: 25px;
+  width: 450px;
+  height: 60px;
+  margin: 10px;
+}
+#listli1
+{
+  height: 60px;
+  width: 300px;
+  background-color: #242424;
+  font-size: 30px;
+  color: white;
+}
+
+#listbtn
+{
+  border-radius: 30px;
+  background-color: #242424;
+  border: 1px solid #242424;
+  margin: 10px;
+  height: 20px;
+}
+#lists
+{
+
+  margin-top: 50px;
+}
+#updatetext
+{
+    height: 60px;
+    width: 500px;
+    background-color: #242424;
+    font-size: 30px;
+    color: white;
+}
+#updatetext1
+{
+    height: 150px;
+    width: 500px;
+    background-color: #242424;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    border: 1px  solid #242424;
+    text-align: justify;
+}
+p
+{
+width: 200px;
+
+}
+a
+{
+  color: white;
+}
+#todo
+{
+  display: none;
+}
+#to
+{
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
