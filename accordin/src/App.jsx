@@ -1,43 +1,76 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-// Put any other imports below so that CSS from your
-// components takes precedence over default styles.
+/*import React from 'react'
+import "./App.css"
 function App() {
-    var acc = document.getElementsByClassName("accordion");
-var i;
+   let c=0
+   const open = ()=>
+   {      console.log(c++)
+      if(c%2==0)
+      {
+        document.getElementById('p').style.display="none"
+      }
+      else
+      {
+        document.getElementById('p').style.display="block"
+      }
+      
+   }
+   const open1 = ()=>
+   {      console.log(c++)
+      if(c%2==0)
+      {
+        document.getElementById('pp').style.display="block"
+      }
+      else
+      {
+        document.getElementById('pp').style.display="none"
+      }
+      
+   }
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
   return (
+   <div>
     <div>
-        <button className='accordin'>sec1</button>
-    <div className='panel'>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, iure quam beatae eum maiores veniam cupiditate eligendi. Nam soluta minus, consectetur assumenda inventore necessitatibus aperiam facere! Ratione nisi aliquid animi.</p>
+    <button id='b' onClick={open}>section#1</button>
+    <p id='p'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta, voluptatibus maxime libero voluptatem obcaecati, repudiandae minus quaerat earum eum quisquam iure. Temporibus totam rerum animi earum, eius magnam nostrum!</p>
     </div>
-    <button className='accordin'>sec2</button>
-    <div className='panel'>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, iure quam beatae eum maiores veniam cupiditate eligendi. Nam soluta minus, consectetur assumenda inventore necessitatibus aperiam facere! Ratione nisi aliquid animi.</p>
-  </div>
-  <button className='accordin'>sec3</button>
-  <div className='panel'>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, iure quam beatae eum maiores veniam cupiditate eligendi. Nam soluta minus, consectetur assumenda inventore necessitatibus aperiam facere! Ratione nisi aliquid animi.</p>
-</div>
-</div>
+    <div>
+    <button id='bb' onClick={open1}>section#1</button>
+    <p id='pp'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, dicta, voluptatibus maxime libero voluptatem obcaecati, repudiandae minus quaerat earum eum quisquam iure. Temporibus totam rerum animi earum, eius magnam nostrum!</p>
+    </div>
+   </div>
+  )
+}
+
+export default App*/
+
+import React from 'react'
+import Accordin from './Accordin'
+import './App.css'
+function App() {
+  const items = [
+    {
+       "id":"1",
+       "title":"section#1",
+       "content":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor vehicula eros in dignissim. Suspendisse rhoncus et ipsum nec auctor. Nullam id purus blandit, consectetur dui quis, aliquam sapien. Aliquam tristique, diam quis lacinia fringilla, nulla mi ornare tellus, sed congue eros diam id massa. Aliquam blandit, ligula ac vehicula pulvinar, odio felis pulvinar orci, ac feugiat quam odio eu mi. Quisque eget tempus augue. Nulla pretium nisl nec quam rhoncus"
+    },
+    {
+      "id":"2",
+      "title":"section#2",
+      "content":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor vehicula eros in dignissim. Suspendisse rhoncus et ipsum nec auctor. Nullam id purus blandit, consectetur dui quis, aliquam sapien. Aliquam tristique, diam quis lacinia fringilla, nulla mi ornare tellus, sed congue eros diam id massa. Aliquam blandit, ligula ac vehicula pulvinar, odio felis pulvinar orci, ac feugiat quam odio eu mi. Quisque eget tempus augue. Nulla pretium nisl nec quam rhoncus"
+    },
+    {
+      "id":"3",
+      "title":"section#3",
+      "content":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor vehicula eros in dignissim. Suspendisse rhoncus et ipsum nec auctor. Nullam id purus blandit, consectetur dui quis, aliquam sapien. Aliquam tristique, diam quis lacinia fringilla, nulla mi ornare tellus, sed congue eros diam id massa. Aliquam blandit, ligula ac vehicula pulvinar, odio felis pulvinar orci, ac feugiat quam odio eu mi. Quisque eget tempus augue. Nulla pretium nisl nec quam rhoncus"
+    },
+  ]
+  return (
+   <body>
+     <div>
+      <Accordin items={items} />
+    </div>
+   </body>
   )
 }
 
 export default App
-
