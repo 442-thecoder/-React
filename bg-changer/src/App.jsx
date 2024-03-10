@@ -21,6 +21,7 @@ export default App */
 
  import { useState } from 'react'
  import './App.css'
+ import React from 'react'
 
  function App() {
   const [bg, setbg] = useState('#000000')
