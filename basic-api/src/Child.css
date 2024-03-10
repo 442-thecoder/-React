@@ -1,0 +1,19 @@
+img
+{
+   height: 300px;
+   width: 500px;
+}
+#news
+{
+    border: 1px solid blue;
+    box-shadow: 5px 5px 20px 5px black ;
+}
+p
+{
+    text-align: justify;
+    padding: 10px;
+}
+button
+{
+    margin-bottom: 10px;
+}
