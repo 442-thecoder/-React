@@ -29,6 +29,7 @@ export default App */
    {
       //  Math.round(Math.random() * 10000000).toString(16)
        const random_color = input.value
+       console.log(random_color)
        setbg(random_color)
    }
    return (
@@ -40,28 +41,28 @@ export default App */
    )
  }
  export default App
-/*import { Component } from 'react'
-import "./App.css"
+// import { Component } from 'react'
+// import "./App.css"
 
-export default class App extends Component {
-  constructor()
-  {
-    super()
-    this.state={background:'#000000'}
-  }
-  change = () =>
-  {
-    Math.round(Math.random() * 10000000).toString(16)
-			const random_color ="#" + Math.round(Math.random() * 10000000).toString(16)
-     this.setState(random_color)
-  }
-  render() {
-    return (
-     <body style={{ backgroundColor: this.state.background }}>
-       <div>
-        <input onChange={this.change} type="color" id="input" />
-       </div>
-     </body>
-    )
-  }
-}*/
+// export default class App extends Component {
+//   constructor()
+//   {
+//     super()
+//     this.state={background:'#000000'}
+//   }
+//   change = () =>
+//   {
+//     Math.round(Math.random() * 10000000).toString(16)
+// 			const random_color ="#" + Math.round(Math.random() * 10000000).toString(16)
+//      this.setState(random_color)
+//   }
+//   render() {
+//     return (
+//      <body style={{ backgroundColor: this.state.background }}>
+//        <div>
+//         <input onChange={this.change} type="color" id="input" />
+//        </div>
+//      </body>
+//     )
+//   }
+// }
