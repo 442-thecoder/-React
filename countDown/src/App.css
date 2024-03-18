@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/*- countdown css -*/
+#time
+{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+#countdown
+{
+  display: none;
+}
+#counter2
+{
+  display: none;
+}
+/*- counter css -*/
+#count
+{
+      height: 200px;
+      width: 300px;
+      background-color: brown;
+      
+      
+      
+}
+#counter1
+{
+  gap: 30px;
+  margin-top: 30px; 
+}
+#counter1 button:hover
+{
+ background-color: #242424; 
+}
+#countc
+{
+  height: 60px;
+  padding-top: 40px;
+  background-color: black;
+  
+ 
+}
+button
+{
+  margin: 10px;
+
+}
+#text
+{
+  height: 40px;
+  width: 280px;
+}
+
+img
+{
+  height: 300px;
+ 
+}
+strong
+{
+  color: red;
+}
+#timer
+{
+  color: red;
+}
+#timers
+{
+  color: red;
+}
+#timerss
+{
+  color: red;
+}
+#counter
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+}
+#ask
+{
+  padding-top: 150px;
+  
+}
