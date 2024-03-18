@@ -1,17 +1,33 @@
-import './App.css';
-import logo from './logo.svg';
-function App() {
-  return (
-    <body>
-    <div class="App-header" >
-   
-     <h1>my react js</h1>
-     <img src={logo} className="App-logo" alt="logo" />
-      <p>React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</p>
-    </div>
-    
-    </body>
-  );
+import React, { Component } from 'react'
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 10
+    };
+  }
+
+  componentDidMount() {
+    const myTimer = setInterval(() => {
+      this.state.count > 0
+        ? this.setState({ count: this.state.count - 1 })
+        : clearInterval(myTimer);
+    }, 1000);
+  }
+
+  render() {
+    return (
+      <div style={this.props}>
+        <h1>
+          NASA Countdown: <br /> {this.state.count || "🪐"} <br />
+          {"⭐".repeat(this.state.count) || "🚀"}
+        </h1>
+        {this.state.count === 0 && <h2>LIFT OFF!!!</h2>}
+      </div>
+    );
+  }
 }
 
-export default App;
+export default App
+
