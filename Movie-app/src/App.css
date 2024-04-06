@@ -1,0 +1,57 @@
+#logo
+{
+  height: 150px;
+}
+#head
+{
+  background-color: #0a0c2c;
+  position: fixed;
+  
+}
+#footer
+{
+  background-color: #0a0c2c;
+  color: white;
+}
+#aboutlogo
+{
+    height: 250px;
+    border-radius: 50%;
+    
+}
+#about
+{
+  padding-top: 200px;
+}
+#contact
+{
+  padding-top: 200px;
+  margin-bottom: 20px;
+}
+#mainpage
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  padding-top: 200px;
+  gap: 20px;
+}
+#link
+{
+      color: white;
+      text-decoration: none;
+}
+.movie
+{
+  border: 10px solid #0a0c2c;padding: 10px;
+  gap: 10px;
+}
+#movie
+{
+  
+  height: 400px;
+}
+

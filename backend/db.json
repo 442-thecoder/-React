@@ -1,0 +1,26 @@
+{
+  "movies": [
+    {
+      "id": "25",
+      "Title": "Incredibles3",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_SX300.jpg",
+      "Year": "2015"
+    },
+    {
+      "id": "2",
+      "Title": "og",
+      "Poster": "https://images.meesho.com/images/products/381051853/mskyc_1200.jpg",
+      "Year": "2023"
+    }
+  ],
+  "books": [
+    {
+      "id": "255",
+      "Titlle": "Book1"
+    },
+    {
+      "id": "255",
+      "Titlle": "Book2"
+    }
+  ]
+}
