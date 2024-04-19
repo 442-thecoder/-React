@@ -1,0 +1,128 @@
+#head
+{
+    background-color: lightgray;
+    height: 100px;
+    
+}
+
+.head1
+{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    
+    
+}
+.head1btn
+{
+    background-color: rgb(66, 66, 235);
+    border: 1px solid darkblue;
+    color: white;
+    border-radius: 5px;
+    
+    
+}
+#input
+{
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    width: 1910px;
+    height: 60px;
+   
+}
+#box1
+{
+    border: 1px solid ;
+    height: 730px;
+    width: 400px;
+    background-color: gray;
+}
+#date
+{
+    border: 1px solid black;
+    width: 166px;
+    
+}
+#btn
+{
+    height:40px;
+}
+li
+{
+    list-style-type: none;
+    color: white;
+}
+#ul1
+{
+  display: flex;
+  gap: 100px;
+}
+#line2
+{
+    display: flex;
+    gap: 60px;
+}
+#ul2
+{
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+#ul3
+{
+    display: flex;
+}
+#sign
+{
+    height: 50px;
+    width: 330px;
+    background-color: rgb(85, 85, 201);
+    color: white;
+    border-radius: 5px;
+}
+#ordersave
+{
+    height: 50px;
+    width: 330px;
+    background-color: rgb(107, 128, 190);
+    color: white;
+    border-radius: 5px;
+}
+#body
+{
+    display: flex;
+    background-color: white;
+}
+#inp
+{
+    height: 200px;
+    width: 1470px;
+    border: 1px solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+   
+}
+#body1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 360px;
+}
+#inp1
+{
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 1300px;
+    background-color: lightgray;
+}
+#hr
+{
+    color: white;
+    
+}
+#apr
+{
+    color: white;
+}
